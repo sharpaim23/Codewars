@@ -19,4 +19,4 @@ function even_or_odd(number) {
   }
 }
           console.log(even_or_odd(22),(0));
-          even_or_odd(73)
+          
