@@ -1,3 +1,3 @@
-# Codewars
+# Coding Challenges
 
-Codewars Questions and answers with some explanations
+Coding Challenge questions and answers with partial explanations
