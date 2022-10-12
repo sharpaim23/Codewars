@@ -1,8 +1,5 @@
 /*Given a number as an input, print out every integer from 1 to that number. However, when the integer is divisible by 3, print out “Fizz”; when it’s divisible by 5, print out “Buzz”; when it’s divisible by both 3 and 5, print out “Fizz Buzz”.*/
 
-//SAMPLE TESTS:
-/* */
-
 
 //Prams: Strings, Numbers, - divisible by 3 || 5 && both, return strings 'fizz', 'buzz','fizzbuzz'
 //Return: Print out the word 'fizz' if the integer is divisible by 3, 'buzz' if by 5, and 'fizzbuzz' if by both
