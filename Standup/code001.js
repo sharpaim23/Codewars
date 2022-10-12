@@ -3,6 +3,9 @@
 
 //Strings, Numbers, - divisible by 3 || 5 && both, return strings 'fizz', 'buzz','fizzbuzz'
 //Print out the word 'fizz' if the integer is divisible by 3, 'buzz' if by 5, and 'fizzbuzz' if by both
+// n = 5 -> 1,2,Fizz,4,Buzz
+// n = 9 -> 1,2,Fizz,4,Buzz,Fizz,7,8,Fizz
+// n = 15 -> 1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,fizz,13,14,FizzBuzz
 
 //SOLUTION:
 //Declare variable
@@ -21,19 +24,6 @@ for (let i = 1; i < 101; i++){
 }
 
 
-
-// let i;
-// for (let i = 1; i < 101; i++){
-//   if (i % 15 == 0) {
-//     console.log('FizzBuzz');
-//   } else if (i % 3 == 0) {
-//   console.log('Fizz')
-//   } else if (i % 5 == 0) {
-//   console.log('Buzz')
-//   }else console.log(i)
-// }
-
-// i(6, 20, 60)
-// console.log('Fizz');
-// console.log('Buzz');
-// console.log('FizzBuzz');
+// FizzBuzz(5), 1,2,Fizz,4,Buzz
+// FizzBuzz(9), 1,2,Fizz,4,Buzz,Fizz,7,8,Fizz
+// FizzBuzz(12), 1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,fizz,13,14,FizzBuzz
