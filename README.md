@@ -1,2 +1,3 @@
 # Codewars
-Codewars Questions and answers with some explainations
+
+Codewars Questions and answers with some explanations
