@@ -56,6 +56,20 @@ function duplicateEncode(word) {
 }
 
 
+//Solution 2
+function encodeDupes(str) {
+  // toLowerCase
+  // split -> map-> indexOf === lastOfIndex ? '(' : ')'
+  // join
+  
+  return str.toLowerCase()
+    .split('')
+    .map((l, i, a) => a.indexOf(l) === a.lastOfIndex(l) ? '(' : ')')
+    .join('')
+}
+
+
+
 
 
 
